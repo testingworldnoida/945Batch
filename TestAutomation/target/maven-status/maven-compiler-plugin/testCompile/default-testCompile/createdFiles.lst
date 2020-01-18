@@ -1,0 +1,3 @@
+automation\TestAutomation\AppTest.class
+org\testcases\steps\RunCukesTest.class
+org\testcases\steps\TC_002.class

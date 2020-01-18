@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login on facebook application.",
+        "description": "",
+        "id": "test-search-functionality;login-on-facebook-application.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "line": 4,
+            "name": "a user is on the Login page \"www.facebook.com\"",
+            "keyword": "Given "
+          },
+          {
+            "line": 5,
+            "name": "user gets email textbox",
+            "keyword": "Then "
+          },
+          {
+            "line": 6,
+            "name": "user enters username \"testing\"",
+            "keyword": "When "
+          },
+          {
+            "line": 7,
+            "name": "user enters password \"testing\"",
+            "keyword": "And "
+          },
+          {
+            "line": 8,
+            "name": "user clicks on login button",
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1194194109,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on home page",
+            "match": {
+              "location": "TC_002.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Search functionality",
+    "description": "",
+    "id": "test-search-functionality",
+    "keyword": "Feature",
+    "uri": "org\\testcases\\steps\\Search.feature"
+  }
+]
